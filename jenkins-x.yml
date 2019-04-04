@@ -1,9 +1,0 @@
-env:
-- name: DEPLOY_NAMESPACE
-  value: jx-staging
-pipelineConfig:
-  agent: {}
-  env:
-  - name: DEPLOY_NAMESPACE
-    value: jx-staging
-  pipelines: {}
